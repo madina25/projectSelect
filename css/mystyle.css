@@ -1,0 +1,117 @@
+div.block {
+    width: 400px;
+    float: left;
+    margin: 50px;
+}
+
+.inputStyle {
+    width: 300px;
+    font-size: 16px;
+    padding: 12px 12px 8px 12px;
+    border: 1px solid #ddd;
+}
+
+.color {
+    background-color: #8FB0CF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#ulArray {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#ulArray option {
+    height: 35px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    padding: 12px 12px 5px 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+}
+
+.buttonRefresh {
+    border: 1px #cbcbcb;
+    background-color: azure;
+    padding: 12px 12px 12px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #5e5e5e;
+    display: block;
+    border-left: none;
+}
+
+.button {
+    border: none;
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+    margin-top: 2px;
+    margin-right: 2px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #5e5e5e;
+    display: block;
+    border-left: none;
+}
+ё
+
+.button,.button:active,.button:focus{
+    outline: none;
+}
+
+
+.hide {
+    display: none;
+}
+
+.select-editable {
+    position:relative;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 12px 12px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+.select-editable select {
+    position:absolute;
+    top:0px;
+    left:0px;
+    font-size:16px;
+    border:none;
+    width: 100%;
+    margin:0;
+}
+.select-editable input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 90%;
+    padding:1px;
+    font-size:16px;
+    border:none;
+}
+.select-editable select:focus, .select-editable input:focus {
+    outline:none;
+}
+
+form {
+    display: inline-block;
+    position: relative;
+}
+
+form input {
+    width: 6em;
+    padding-right: 4.6em;
+}
+form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4.5em;
+}
